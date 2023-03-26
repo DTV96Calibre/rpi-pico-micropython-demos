@@ -1,3 +1,6 @@
+""" This builds on example code found in section 3.9.2 of the document found here:
+https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf
+"""
 import network
 import socket
 import time

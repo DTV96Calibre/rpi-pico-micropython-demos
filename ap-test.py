@@ -1,10 +1,13 @@
+""" Most of this script was lifted directly from microcontrollerslab
+    https://microcontrollerslab.com/raspberry-pi-pico-w-soft-access-point-web-server-example/
+"""
 from machine import Pin, Timer
 import socket
 import network
 import gc
 gc.collect()
 ssid = 'RPI_PICO_AP'
-password = 'ah1234567'
+password = 'rpi1234567'
 
 ap = network.WLAN(network.AP_IF)
 ap.config(essid=ssid, password=password)

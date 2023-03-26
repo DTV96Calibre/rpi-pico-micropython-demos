@@ -1,3 +1,5 @@
+""" This code is untested
+"""
 from machine import Pin, Timer
 
 lamp = Pin(20, Pin.OUT)
